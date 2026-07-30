@@ -6,20 +6,22 @@
 <title>Rack List</title>
 <style>
   :root {
-    --bg: #0f0f0f;
-    --surface: #1a1a1a;
-    --border: #2a2a2a;
-    --text: #e0e0e0;
-    --dim: #888;
-    --accent: #f0a030;
-    --accent-dim: #b07010;
-    --green: #2ecc71;
-    --red: #e74c3c;
+    --border: #d0d0d0;
+    --header-bg: #4472C4;
+    --header-text: #ffffff;
+    --row-even: #F2F2F2;
+    --row-odd: #ffffff;
+    --row-hover: #D9E6FF;
+    --text: #1a1a1a;
+    --dim: #555;
+    --accent: #4472C4;
+    --highlight: #FFFF00;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    background: var(--bg);
+    font-family: Calibri, 'Segoe UI', Arial, sans-serif;
+    font-size: 14px;
+    background: #e8e8e8;
     color: var(--text);
     min-height: 100vh;
   }
@@ -30,26 +32,27 @@
     min-height: 100vh; padding: 20px;
   }
   .gate-box {
-    background: var(--surface);
+    background: #fff;
     border: 1px solid var(--border);
-    border-radius: 12px;
+    border-radius: 8px;
     padding: 48px 40px;
     text-align: center;
     max-width: 400px;
     width: 100%;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
   }
   .gate-box h1 { font-size: 22px; font-weight: 600; margin-bottom: 8px; }
   .gate-box p { color: var(--dim); font-size: 14px; margin-bottom: 28px; }
   .gate-box input {
     width: 100%; padding: 14px 18px;
-    background: var(--bg); border: 1px solid var(--border);
-    border-radius: 8px; color: var(--text); font-size: 18px;
+    background: #f8f8f8; border: 1px solid var(--border);
+    border-radius: 6px; color: var(--text); font-size: 18px;
     text-align: center; letter-spacing: 4px; outline: none;
     transition: border-color .2s;
   }
   .gate-box input:focus { border-color: var(--accent); }
   .gate-box .error {
-    color: var(--red); font-size: 13px; margin-top: 12px; display: none;
+    color: #d32f2f; font-size: 13px; margin-top: 12px; display: none;
   }
   .gate-box .error.show { display: block; }
 
@@ -58,73 +61,76 @@
   #app.active { display: flex; }
 
   header {
-    background: var(--surface); border-bottom: 1px solid var(--border);
-    padding: 14px 24px; display: flex; align-items: center;
+    background: #fff; border-bottom: 2px solid var(--accent);
+    padding: 12px 24px; display: flex; align-items: center;
     justify-content: space-between; flex-wrap: wrap; gap: 12px;
-    position: sticky; top: 0; z-index: 10;
+    position: sticky; top: 0; z-index: 10; box-shadow: 0 1px 4px rgba(0,0,0,0.06);
   }
-  header h1 { font-size: 17px; font-weight: 600; }
+  header h1 { font-size: 18px; font-weight: 700; color: var(--accent); }
   header .meta { color: var(--dim); font-size: 12px; }
 
   .toolbar {
-    padding: 12px 24px; display: flex; gap: 12px; flex-wrap: wrap;
-    align-items: center;
+    padding: 10px 24px; display: flex; gap: 12px; flex-wrap: wrap;
+    align-items: center; background: #fff; border-bottom: 1px solid var(--border);
   }
   .toolbar input[type=search] {
-    padding: 8px 14px; background: var(--surface);
-    border: 1px solid var(--border); border-radius: 6px;
-    color: var(--text); font-size: 14px; min-width: 240px; outline: none;
+    padding: 7px 12px; background: #fff;
+    border: 1px solid var(--border); border-radius: 4px;
+    color: var(--text); font-size: 13px; min-width: 240px; outline: none;
   }
-  .toolbar input[type=search]:focus { border-color: var(--accent); }
-  .toolbar .count { color: var(--dim); font-size: 13px; margin-left: auto; }
+  .toolbar input[type=search]:focus { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(68,114,196,0.15); }
+  .toolbar .count { color: var(--dim); font-size: 12px; margin-left: auto; }
 
-  .table-wrap { padding: 0 24px 24px; overflow-x: auto; flex: 1; }
+  .table-wrap {
+    margin: 0 24px 24px; overflow-x: auto; flex: 1;
+    background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  }
   table {
     width: 100%; border-collapse: collapse; font-size: 13px;
-    white-space: nowrap;
   }
-  thead { position: sticky; top: 57px; z-index: 5; }
+  thead { position: sticky; top: 47px; z-index: 5; }
   th {
-    background: var(--surface); color: var(--dim);
-    font-weight: 600; text-align: left; padding: 10px 14px;
-    border-bottom: 2px solid var(--border); cursor: pointer;
-    user-select: none; font-size: 11px; text-transform: uppercase;
-    letter-spacing: 0.5px;
+    background: var(--header-bg); color: var(--header-text);
+    font-weight: 600; text-align: left; padding: 8px 10px;
+    border: 1px solid #3A5FA8; cursor: pointer;
+    user-select: none; font-size: 12px; white-space: nowrap;
   }
-  th:hover { color: var(--text); }
-  th .arrow { margin-left: 4px; opacity: 0.4; }
-  th.sorted .arrow { opacity: 1; color: var(--accent); }
+  th:hover { background: #5B8BD4; }
+  th .arrow { margin-left: 3px; opacity: 0.6; }
+  th.sorted .arrow { opacity: 1; }
   th.sorted.desc .arrow::after { content: ' ▼'; }
   th.sorted.asc .arrow::after { content: ' ▲'; }
 
-  td { padding: 8px 14px; border-bottom: 1px solid var(--border); }
-  tr:hover td { background: rgba(255,255,255,0.02); }
+  td {
+    padding: 5px 10px; border: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  tr:nth-child(even) td { background: var(--row-even); }
+  tr:nth-child(odd) td { background: var(--row-odd); }
+  tr:hover td { background: var(--row-hover) !important; }
+
+  /* ── Highlight rows 1-10 (yellow like MO's Excel) ── */
+  tr.highlight td { background: #FFF9C4 !important; }
+  tr.highlight:hover td { background: #FFF176 !important; }
 
   .state-empty, .state-loading, .state-error {
     text-align: center; padding: 80px 20px; color: var(--dim);
+    background: #fff;
   }
-  .state-error { color: var(--red); }
-  .state-loading::after { content: '...'; animation: dots 1.5s steps(4,end) infinite; }
-  @keyframes dots { 0%{content:'.'} 25%{content:'..'} 50%{content:'...'} 75%{content:'....'} }
-
-  .badge {
-    display: inline-block; padding: 2px 8px; border-radius: 4px;
-    font-size: 11px; font-weight: 600; background: var(--accent-dim);
-    color: #fff;
-  }
+  .state-error { color: #d32f2f; }
 
   footer {
-    text-align: center; padding: 16px; color: var(--dim);
-    font-size: 11px; border-top: 1px solid var(--border);
+    text-align: center; padding: 12px; color: var(--dim);
+    font-size: 11px; background: #fff; border-top: 1px solid var(--border);
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     .gate-box { padding: 32px 20px; }
-    header { padding: 12px 16px; }
-    .toolbar { padding: 10px 16px; }
+    header { padding: 10px 14px; }
+    .toolbar { padding: 8px 14px; }
     .toolbar input[type=search] { min-width: 0; flex: 1; }
-    .table-wrap { padding: 0 8px 16px; }
-    th, td { padding: 6px 10px; font-size: 12px; }
+    .table-wrap { margin: 0 8px 12px; }
+    th, td { padding: 4px 8px; font-size: 12px; }
   }
 </style>
 </head>
@@ -133,7 +139,7 @@
 <!-- ═══════════ GATE ═══════════ -->
 <div id="gate">
   <div class="gate-box">
-    <h1>🔐 Access Required</h1>
+    <h1>Access Required</h1>
     <p>Enter your access code to view the rack list.</p>
     <input type="password" id="code-input" placeholder="••••" maxlength="16" autofocus>
     <div class="error" id="gate-error">Invalid code. Try again.</div>
@@ -143,11 +149,11 @@
 <!-- ═══════════ APP ═══════════ -->
 <div id="app">
   <header>
-    <h1>📋 Rack & Pinion List</h1>
+    <h1>Rack & Pinion List</h1>
     <span class="meta" id="last-updated"></span>
   </header>
   <div class="toolbar">
-    <input type="search" id="search" placeholder="Search part#, vehicle, year...">
+    <input type="search" id="search" placeholder="Search...">
     <span class="count" id="row-count"></span>
   </div>
   <div class="table-wrap">
@@ -157,28 +163,19 @@
     </table>
     <div class="state-empty" id="empty-msg" style="display:none">No matching parts found.</div>
   </div>
-  <footer>Updated live from master list</footer>
+  <footer>Updated automatically from master list</footer>
 </div>
 
 <script>
 // ═══════════════════════════════════════
-// CONFIGURATION — Edit these
+// CONFIGURATION
 // ═══════════════════════════════════════
 
-// Google Sheets published CSV URL (File → Share → Publish to web → CSV)
 const SHEET_CSV_URL = 'https://raw.githubusercontent.com/mohammad-ayesh/yard-portal/main/data.csv';
 
-// Valid access codes — one per yard. Change these, add more as needed.
-// Each yard gets ONE code. Codes are case-sensitive.
-// Set to empty array for open access (anyone with the link can view).
-const VALID_CODES = new Set([
-  // Add codes here when ready
-]);
-const OPEN_ACCESS = true;  // Change to false when you want passcode protection
+const VALID_CODES = new Set([]);
+const OPEN_ACCESS = true;
 
-// How column headers from your sheet map to display names.
-// Keys = exact header text from your sheet (row 1).
-// Values = display name. Leave empty string to hide the column.
 const COLUMN_MAP = {
   'Make':          'Make',
   'Model':         'Model',
@@ -186,7 +183,9 @@ const COLUMN_MAP = {
   'Sub Model':     'Sub Model',
 };
 
-// How long to cache data (milliseconds). Default: 5 minutes.
+// How many rows to highlight yellow (matches MO's Excel)
+const HIGHLIGHT_ROWS = 10;
+
 const CACHE_MS = 5 * 60 * 1000;
 
 // ═══════════════════════════════════════
@@ -197,13 +196,11 @@ let allRows = [];
 let sortCol = null;
 let sortAsc = true;
 
-// ── Gate ──
 const gate = document.getElementById('gate');
 const app = document.getElementById('app');
 const codeInput = document.getElementById('code-input');
 const gateError = document.getElementById('gate-error');
 
-// Check URL param first
 const urlParams = new URLSearchParams(window.location.search);
 const urlCode = urlParams.get('code');
 
@@ -219,7 +216,6 @@ if (OPEN_ACCESS) {
 codeInput.addEventListener('keydown', e => {
   if (e.key === 'Enter') {
     if (VALID_CODES.has(codeInput.value.trim())) {
-      // Update URL without reload
       const url = new URL(window.location);
       url.searchParams.set('code', codeInput.value.trim());
       window.history.replaceState({}, '', url);
@@ -237,13 +233,11 @@ function unlock() {
   loadData();
 }
 
-// ── Data loading ──
 async function loadData() {
   const body = document.getElementById('table-body');
-  body.innerHTML = '<tr><td colspan="10" class="state-loading">Loading</td></tr>';
+  body.innerHTML = '<tr><td colspan="10" class="state-loading">Loading...</td></tr>';
 
   try {
-    // Try cache first
     const cached = sessionStorage.getItem('rack_data');
     const cachedTime = sessionStorage.getItem('rack_data_time');
     if (cached && cachedTime && (Date.now() - Number(cachedTime) < CACHE_MS)) {
@@ -265,17 +259,14 @@ async function loadData() {
       Could not load data. ${err.message}<br>
       <small>Try refreshing the page.</small>
     </td></tr>`;
-    console.error('Load error:', err);
   }
 }
 
 function parseCSV(text) {
   const lines = text.trim().split('\n');
   if (lines.length < 2) return [];
-
   const headers = parseCSVLine(lines[0]);
   const rows = [];
-
   for (let i = 1; i < lines.length; i++) {
     const vals = parseCSVLine(lines[i]);
     if (vals.length === 0 || vals.every(v => !v)) continue;
@@ -304,7 +295,6 @@ function parseCSVLine(line) {
   return result;
 }
 
-// ── Rendering ──
 function renderTable() {
   const searchTerm = document.getElementById('search').value.toLowerCase();
   let filtered = allRows;
@@ -314,12 +304,10 @@ function renderTable() {
     );
   }
 
-  // Sort
   if (sortCol !== null) {
     filtered.sort((a, b) => {
       const va = (a[sortCol] || '').toString().toLowerCase();
       const vb = (b[sortCol] || '').toString().toLowerCase();
-      // Numeric sort if both look like numbers
       const na = parseFloat(va), nb = parseFloat(vb);
       if (!isNaN(na) && !isNaN(nb) && va === String(na) && vb === String(nb)) {
         return sortAsc ? na - nb : nb - na;
@@ -331,7 +319,6 @@ function renderTable() {
   document.getElementById('row-count').textContent =
     `${filtered.length} of ${allRows.length} parts`;
 
-  // Build headers
   const headRow = document.getElementById('table-head');
   const visibleCols = Object.entries(COLUMN_MAP).filter(([_, label]) => label !== '');
   headRow.innerHTML = visibleCols.map(([key, label]) => {
@@ -339,7 +326,6 @@ function renderTable() {
     return `<th class="${cls}" data-col="${key}">${label}<span class="arrow"></span></th>`;
   }).join('');
 
-  // Build body
   const body = document.getElementById('table-body');
   const empty = document.getElementById('empty-msg');
 
@@ -349,14 +335,12 @@ function renderTable() {
     empty.textContent = searchTerm ? 'No matching parts found.' : 'No parts in list yet.';
   } else {
     empty.style.display = 'none';
-    body.innerHTML = filtered.map(row =>
-      `<tr>${visibleCols.map(([key]) => {
-        const val = row[key] || '';
-        // Highlight part numbers
-        const isPart = key.includes('#') || key.toLowerCase().includes('part');
-        return `<td>${isPart ? `<span class="badge">${esc(val)}</span>` : esc(val)}</td>`;
-      }).join('')}</tr>`
-    ).join('');
+    body.innerHTML = filtered.map((row, idx) => {
+      const hl = idx < HIGHLIGHT_ROWS ? ' class="highlight"' : '';
+      return `<tr${hl}>${visibleCols.map(([key]) =>
+        `<td>${esc(row[key] || '')}</td>`
+      ).join('')}</tr>`;
+    }).join('');
   }
 }
 
@@ -366,26 +350,18 @@ function esc(s) {
   return d.innerHTML;
 }
 
-// ── Sorting ──
 document.getElementById('table-head').addEventListener('click', e => {
   const th = e.target.closest('th');
   if (!th) return;
   const col = th.dataset.col;
-  if (sortCol === col) {
-    sortAsc = !sortAsc;
-  } else {
-    sortCol = col;
-    sortAsc = true;
-  }
+  sortCol = col;
+  sortAsc = sortCol === col ? !sortAsc : true;
+  if (sortCol !== col) { sortCol = col; sortAsc = true; }
   renderTable();
 });
 
-// ── Search ──
-document.getElementById('search').addEventListener('input', () => {
-  renderTable();
-});
+document.getElementById('search').addEventListener('input', () => renderTable());
 
-// ── Periodic refresh (every 5 min) ──
 setInterval(() => {
   if (app.classList.contains('active')) {
     sessionStorage.removeItem('rack_data');
