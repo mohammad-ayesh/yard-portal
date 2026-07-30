@@ -86,24 +86,19 @@
     background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.08);
   }
   table {
-    width: 100%; border-collapse: collapse; font-size: 13px;
+    width: auto; border-collapse: collapse; font-size: 13px;
   }
   thead { position: sticky; top: 47px; z-index: 5; }
   th {
     background: var(--header-bg); color: var(--header-text);
-    font-weight: 600; text-align: left; padding: 8px 10px;
-    border: 1px solid #3A5FA8; cursor: pointer;
-    user-select: none; font-size: 12px; white-space: nowrap;
+    font-weight: 600; text-align: center; padding: 8px 14px;
+    border: 1px solid #3A5FA8;
+    font-size: 12px; white-space: nowrap;
   }
-  th:hover { background: #5B8BD4; }
-  th .arrow { margin-left: 3px; opacity: 0.6; }
-  th.sorted .arrow { opacity: 1; }
-  th.sorted.desc .arrow::after { content: ' ▼'; }
-  th.sorted.asc .arrow::after { content: ' ▲'; }
 
   td {
-    padding: 5px 10px; border: 1px solid var(--border);
-    white-space: nowrap;
+    padding: 5px 14px; border: 1px solid var(--border);
+    white-space: nowrap; text-align: center;
   }
   tr:nth-child(even) td { background: var(--row-even); }
   tr:nth-child(odd) td { background: var(--row-odd); }
@@ -179,7 +174,7 @@ const OPEN_ACCESS = true;
 const COLUMN_MAP = {
   'Make':          'Make',
   'Model':         'Model',
-  'Year of Make':  'Year',
+  'Year of Make':  'Year of Make',
   'Sub Model':     'Sub Model',
 };
 
@@ -193,8 +188,6 @@ const CACHE_MS = 5 * 60 * 1000;
 // ═══════════════════════════════════════
 
 let allRows = [];
-let sortCol = null;
-let sortAsc = true;
 
 const gate = document.getElementById('gate');
 const app = document.getElementById('app');
@@ -304,27 +297,14 @@ function renderTable() {
     );
   }
 
-  if (sortCol !== null) {
-    filtered.sort((a, b) => {
-      const va = (a[sortCol] || '').toString().toLowerCase();
-      const vb = (b[sortCol] || '').toString().toLowerCase();
-      const na = parseFloat(va), nb = parseFloat(vb);
-      if (!isNaN(na) && !isNaN(nb) && va === String(na) && vb === String(nb)) {
-        return sortAsc ? na - nb : nb - na;
-      }
-      return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
-    });
-  }
-
   document.getElementById('row-count').textContent =
     `${filtered.length} of ${allRows.length} parts`;
 
   const headRow = document.getElementById('table-head');
   const visibleCols = Object.entries(COLUMN_MAP).filter(([_, label]) => label !== '');
-  headRow.innerHTML = visibleCols.map(([key, label]) => {
-    const cls = sortCol === key ? (sortAsc ? 'sorted asc' : 'sorted desc') : '';
-    return `<th class="${cls}" data-col="${key}">${label}<span class="arrow"></span></th>`;
-  }).join('');
+  headRow.innerHTML = visibleCols.map(([key, label]) =>
+    `<th>${label}</th>`
+  ).join('');
 
   const body = document.getElementById('table-body');
   const empty = document.getElementById('empty-msg');
@@ -349,16 +329,6 @@ function esc(s) {
   d.textContent = s;
   return d.innerHTML;
 }
-
-document.getElementById('table-head').addEventListener('click', e => {
-  const th = e.target.closest('th');
-  if (!th) return;
-  const col = th.dataset.col;
-  sortCol = col;
-  sortAsc = sortCol === col ? !sortAsc : true;
-  if (sortCol !== col) { sortCol = col; sortAsc = true; }
-  renderTable();
-});
 
 document.getElementById('search').addEventListener('input', () => renderTable());
 
