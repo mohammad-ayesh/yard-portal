@@ -1,7 +1,5 @@
 Make,Model,Year of Make,Sub Model
 Ford,Mustang,2012,All Wheel Size
-BMW,X1,2012-2015,2.0; RWD; with Electronic Power Steering
-Dodge,Durango,2017-2020,3.6L and 5.7L
 Chrysler,300 (AWD),2017,AWD
 Chrysler,300,2015,"RWD , All models (Any kind of suspension)"
 Chrysler,300,2016,"RWD , All models (Any kind of suspension)"
@@ -50,6 +48,8 @@ Acura,TLX,2015-2020,"3.5L , FWD"
 Subaru,Impreza,2015-2016,All Models
 Lexus,GS300,2006,AWD
 Buick,Enclave,2018-2021,All Models
+BMW,X1,2012-2015,2.0; RWD; with Electronic Power Steering
+Dodge,Durango,2017-2020,3.6L and 5.7L
 ,,,
 Honda,Accord,2013-2015,3.5L Models; Sedan models
 Acura,TSX,2011-2012,2.4L Models
