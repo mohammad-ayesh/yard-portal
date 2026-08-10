@@ -5,6 +5,7 @@ Chrysler,300,2015,"RWD , All models (Any kind of suspension)"
 Chrysler,300,2016,"RWD , All models (Any kind of suspension)"
 Chrysler,300,2017,"RWD , All models (Any kind of suspension)"
 Dodge,Challenger (Chrysler),2022,"(power rack and pinion), opt SDE (sport suspension)"
+Ford,Explorer,2014,2.0 or 3.5 W/O Automatic Park W/O Turbo
 Ford,F-150,2011,Electric With or Without Heavy Duty Towing Package
 Ford,F-150,2012-2014,Electric With or Without Heavy Duty Towing Package
 Ford,Mustang,2015,All Wheel Size
@@ -22,28 +23,32 @@ Chevrolet,Silverado 1500,2017-2019,"All Models, classic style for 2019 "
 Cadillac,Escalade,2015,All Models
 Cadillac,Escalade,2016,All Models
 Cadillac,Escalade,2017,All Models
-Ford,Explorer,2014,2.0 or 3.5 W/O Automatic Park W/O Turbo
 Volkswagen,Tiguan,2012,All Models
 Volkswagen,Tiguan,2017,All Models
+Ford,Taurus,2013-2015,W or W/O Police Package
+Honda,Civic,2016-2018,All models
+Ford,Explorer,2011-2012,All Models
+Chevrolet,Cruze,2011-2014,All Models
+Toyota,Camry,2007-2011,Hybrid
 ,,,
-BMW,X528i,2012-2016,"AWD, with Integral Active Front Steering"
+FORD,BRONCO,2022,2.3L & 2.7L Models 
+HONDA,HR-V,2023-2024,All Models
+BMW,528i,2015,"RWD, With active steering"
+Acura ,RLX,2014-2015,Base Models
+Cadillac,CTS,2014-2018,AWD
+Mercedes,C43 AMG,2017-2018,AWD
+CHRYSLER,PACIFICA ,2021-2024,AWD Models
 Acura,TSX,2011-2014,2.4L Models
 Mercedes,E350,2020,AWD
-CHEVROLET,CAMARO ,2012-2015,14-15 6.2L & 7.0L Models
+Honda,Accord,2013-2015,3.5L Models; Sedan models
+Ram,1500,2022-2024,All Models
+BMW,X528i,2012-2016,"AWD, with Integral Active Front Steering"
 Hyundai,Genesis,2015-2016,"3.8L , AWD"
 CHEVROLET,CAMARO ,2016-2023,"LT, SS, LS Models"
-Acura ,RLX,2014-2015,Base Models
-Mercedes,C43 AMG,2017-2018,AWD
-Lexus,LS460,2007-2012,RWD w/Air Suspension 
-CHRYSLER,PACIFICA ,2021-2024,AWD Models
-ACURA,RDX,2019-2023,All Models
-FORD,TRANSIT-150,2022-2023,All Models
 Buick,Envision,2016-2020,FWD
 Subaru,WRX,2018-2021,"2018 w/ 18"" wheel; 2019-2021; Mnual & Automatic CVT w/ LIP ES "
 Acura,TSX,2009-2010,2.4L; Base
-BMW,528i,2015,"RWD, With active steering"
 Audi,A4,2017-2020,All Models
-Cadillac,CTS,2014-2018,AWD
 Acura,TLX,2015-2020,"3.5L , FWD"
 Subaru,Impreza,2015-2016,All Models
 Lexus,GS300,2006,AWD
@@ -71,19 +76,17 @@ Mazda,Miata,1996-1997,All models
 Chevrolet,Tracker,1998-2002,All models
 ,,,
 ,,,
-Dodge,RAM 2500,2003-2008,4WD   
+CHEVROLET,BLAZER,1987-1991,All Models
+Chevrolet,Tracker,1992-1998,Power Steering Gear
+Dodge,RAM 2500,2003-2008,4WD Gas or Diesel
 DODGE,D100,1984-1989,Power steering Gear
 NISSAN,FRONTIER,2000-2004,"2.4L, 4 cylinder "
 JEEP,WRANGLER,2003-2006,LHD
-FORD,Excursion,2000-2005,All Models
 Ford,F-250,2008-2010,"F-250 Only, NO F-350, 2008: From 7/29 not Thru"
 FORD,F-250 SUPER DUTY,2005-2007,All Models
-Chevrolet,Tracker,1992-1998,Power Steering Gear
-
 ,,,
 Mazda,Miata,1990-1997,All Models
 Mazda,Miata,1999-2003,All models
 Chevrolet,Corvette,2005-2010,All models
 Chevrolet,Corvette,1997-2004,All Models
-Chevrolet,Corvette,1988-1996,With 17 inch wheel
 Mazda,MX-5 Miata,2006-2015,All Models
