@@ -24,25 +24,24 @@ Cadillac,Escalade,2016,All Models
 Cadillac,Escalade,2017,All Models
 Ford,Taurus,2013-2015,W or W/O Police Package
 Ford,Explorer,2011-2012,All Models
-Toyota,Camry,2007-2011,Hybrid
+BMW,320i,2013-2018,"RWD, w/o Variable Ratio Sport Steering"
 Ford,F-150,2011,Electric With or Without Heavy Duty Towing Package
 Ford,F-150,2012-2014,Electric With or Without Heavy Duty Towing Package
 Volkswagen,Tiguan,2012,All Models
 Volkswagen,Tiguan,2017,All Models
 ,,,
+,,,
+Honda,Accord,2013-2015,3.5L Models; Sedan models
+BMW,X1,2012-2015,2.0; RWD; with Electronic Power Steering
 HONDA,HR-V,2023-2024,All Models
 BMW,528i,2015,"RWD, With active steering"
 Acura ,RLX,2014-2015,Base Models
 Cadillac,CTS,2014-2018,AWD
 Mercedes,C43 AMG,2017-2018,AWD
-CHRYSLER,PACIFICA ,2021-2024,AWD Models
 Acura,TSX,2011-2014,2.4L Models
 Ram,1500,2022-2024,All Models
 Mercedes,E350,2020,AWD
-BMW,X1,2012-2015,2.0; RWD; with Electronic Power Steering
 Dodge,Durango,2017-2020,3.6L and 5.7L
-Honda,Accord,2013-2015,3.5L Models; Sedan models
-BMW,X528i,2012-2016,"AWD, with Integral Active Front Steering"
 Hyundai,Genesis,2015-2016,"3.8L , AWD"
 Subaru,WRX,2018-2021,"2018 w/ 18"" wheel; 2019-2021; Mnual & Automatic CVT w/ LIP ES "
 Acura,TSX,2009-2010,2.4L; Base
@@ -52,7 +51,6 @@ Subaru,Impreza,2015-2016,All Models
 Lexus,GS300,2006,AWD
 Buick,Enclave,2018-2021,All Models
 ,,,
-Honda,Accord,2013-2015,3.5L Models; Sedan models
 Acura,TSX,2011-2012,2.4L Models
 ,,,
 BMW,Z3,1996-2002,All Models
@@ -61,6 +59,14 @@ Honda,Odyssey,1995-1998,"EX, LX"
 Honda,Accord,1990-1993,2WD Models
 Ford,Transit Connect,2010-2013,All Models
 Ford,Transit-150,2015-2019,"Base, XL, XLT"
+Mazda,Miata,1990-1997,Manual
+Mazda,Miata,1999-2003,Manual
+Chevrolet,Corvette,2005-2010,All models
+Chevrolet,Corvette,1997-2004,All Models
+Mazda,MX-5 Miata,2006-2015,All Models
+Lexus,LS400,1998-2000,All models
+Lexus,LS400,1996-1997,All models
+Mercedes,E Class,1998-2003,All models
 Mazda,Miata,1999-2005,All Models
 Lexus,LS400,1995-1997,Base; Excludes Sensor
 Lexus,GS300,1998-2005,Base
@@ -69,14 +75,21 @@ Infiniti,M37,2011-2013,AWD
 Mazda,Miata,1996-1997,All models
 Chevrolet,Tracker,1998-2002,All models
 ,,,
-,,,
-Mercedes,450SL,1973-1980,Base
 Ford,Bronco,1980-1993,Manual Gearbox
 Chevrolet,Tracker,1992-1998,Power Steering Gear
 Dodge,RAM 2500,2003-2008,4WD Gas or Diesel
 DODGE,D100,1984-1989,Power steering Gear
 JEEP,WRANGLER,2003-2006,LHD
 Ford,F-250,2008-2010,"F-250 Only, NO F-350, 2008: From 7/29 not Thru"
+FORD,Excursion,2000-2005,All Models
+NISSAN,TITAN XD,2016-2023,All Models
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
 ,,,
 ,,,
 ,,,
