@@ -1,96 +1,97 @@
-Part Numbers,Make,Model,Year of Make,Sub Model
-19043A,Honda,Accord,2013-2015,3.5L Models; Sedan models
-3704,Ford,Mustang,2012,All Wheel Size
-19013,Chrysler,300,2015,"RWD , All models (Any kind of suspension)"
-19013,Chrysler,300,2016,"RWD , All models (Any kind of suspension)"
-19013,Chrysler,300,2017,"RWD , All models (Any kind of suspension)"
-19013,Dodge,Challenger (Chrysler),2022,"(power rack and pinion), opt SDE (sport suspension)"
-19085,BMW,528i,2015,"RWD, With active steering"
-252E,Ford,Explorer,2014,2.0 or 3.5 W/O Automatic Park W/O Turbo
-19010,Chrysler,Pacifica,2017-2021,Gasoline 
-3705,Ford,Mustang,2015,All Wheel Size
-3705,Ford,Mustang,2016,All Wheel Size
-1A-17010,Chrysler,300 (AWD),2017,AWD
-30160,Honda,Civic,2007,"1.3L (Hybrid, Sedan)"
-19052,Audi,A4,2013-2016,Without dynamic steering
-5172E,Ram,1500,2015,All models
-19029,Infiniti,Q50,2016-2020,"3.0L AWD, w/o direct adaptive steering"
-19021,RAM,1500,2019-2021,6-Lug (New Style)
-5101EB,Ford,Fusion,2015,All Models
-5101EB,Ford,Edge,2015-2019,All Models
-3920EB,Ford,Escape,2015,All Models
-3920EB,Ford,Focus,2013-2018,All Models
-5142E,Chevrolet,Silverado 1500,2015,All Models
-5142E,Chevrolet,Silverado 1500,2016,All Models
-5142E,Chevrolet,Silverado 1500,2017-2019,"All Models, classic style for 2019 "
-5142E,Cadillac,Escalade,2015,All Models
-5142E,Cadillac,Escalade,2016,All Models
-5142E,Cadillac,Escalade,2017,All Models
-3391EB,Ford,Taurus,2013-2015,W or W/O Police Package
-251E,Ford,Explorer,2011-2012,All Models
-19027,BMW,320i,2013-2018,"RWD, w/o Variable Ratio Sport Steering"
-19084,BMW,528i,2011-2016,Without active steering
-815EB,Volkswagen,Tiguan,2012,All Models
-815EB,Volkswagen,Tiguan,2017,All Models
-20151HD,Ford,F-150,2011,Electric With or Without Heavy Duty Towing Package
-20151HD,Ford,F-150,2012-2014,Electric With or Without Heavy Duty Towing Package
-Gearbox ,,,,
-1256GB,Ford,Bronco,1980-1993,?? ????? ?? ??????
-1604GB,Dodge,RAM 2500,2003-2008,4WD Gas or Diesel
-1356gb,JEEP,WRANGLER,2003-2006,LHD
-1620GB,Ford,F-250,2008-2010,"F-250 Only, NO F-350, 2008: From 7/29 not Thru"
-1610GB,FORD,F-250 SUPER DUTY,2005-2007,All Models
-1602GB,FORD,Excursion,2000-2005,All Models
-1334GB,JEEP,WRANGLER,2007-2017,LHD 4 Door Models; w/ Power Gear
-1446GB,FORD,BRONCO,1990,All Models
-Low Sales Electric,,,,
-19099,CHEVROLET,CAMARO ,2012-2015,14-15 6.2L & 7.0L Models
-19060,BMW,X1,2012-2015,2.0; RWD; with Electronic Power Steering
-19090,HONDA,HR-V,2023-2024,All Models
-1A-3030,Acura ,RLX,2014-2015,Base Models
-19024,Mercedes,C43 AMG,2017-2018,AWD
-19119,Ram,1500,2022-2024,All Models
-19066,Mercedes,E350,2020,AWD
-19030,Acura,TLX,2015-2020,"3.5L , FWD"
-1A-7008,Subaru,Impreza,2015-2016,All Models
-19049,Lexus,GS300,2006,AWD
-3707,Ford,Mustang,2020-2023,All Models
-3706,Ford,Mustang,2018-2019,All Models
-19102,VOLKSWAGEN,ATLAS,2018-2023,All Models
-19086,CHEVROLET,CAMARO ,2016-2023,"LT, SS, LS Models"
-19079,LAND ROVER,DISCOVERY,2017-2019,All Models
-19108,Subaru,Impreza,2017-2019,All Models
-19089,Honda,Civic,2022-2024,All Models
-19038A,Ford,Explorer,2020-2024,2.3L Models
-19004,GMC,Acadia,2017-2020,"For 2017 VIN Z (11th digit), For 2020 ID: 84767398"
-3391EA,Ford,Flex,2011,"Limited, turbocharged, without parking assist"
-,,,,
-Hydraulic,,,,
-25490,Mercedes,E Class,1998-2003,AWD E320
-25009,RAM,ProMaster,2014-2017,All Models
-25525,Honda,Odyssey,1995-1998,"EX, LX"
-300A,Ford,Crown Victoria,2008-2011,W or W/O Speed Sensor
-25460,BMW,Z3,1996-2002,All Models
-695,Honda,Accord,1990-1993,2WD Models
-25561,Chevrolet,Tracker,1998-2002,All models
-25393,Lexus,LS400,1996-1997,All models
-5275,Ford,Transit Connect,2010-2013,All Models
-5275B,Ford,Transit-150,2015-2019,"Base, XL, XLT"
-8400,Mazda,Miata,1990-1997,Manual
-8011,Mazda,Miata,1999-2003,Manual
-2151,Chevrolet,Corvette,2005-2010,All models
-3652,Chevrolet,Corvette,1997-2004,All Models
-30140,Mazda,MX-5 Miata,2006-2015,All Models
-25142,Lexus,LS400,1998-2000,All models
-25515,Mazda,Miata,1999-2005,All Models
-25502,Lexus,GS300,1998-2005,Base
-26-30006,Infiniti,M37,2011-2013,RWD
-26-30007,Infiniti,M37,2011-2013,AWD
-25012,Mazda,Miata,1996-1997,All models
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-
+Make,Model,Year of Make,Sub Model
+Ram,1500,2015,All models
+RAM,1500,2019-2021,6-Lug (New Style)
+Ford,Mustang,2012,All Wheel Size
+Chrysler,300,2015,"RWD , All models (Any kind of suspension)"
+Chrysler,300,2016,"RWD , All models (Any kind of suspension)"
+Chrysler,300,2017,"RWD , All models (Any kind of suspension)"
+Dodge,Challenger (Chrysler),2022,"(power rack and pinion), opt SDE (sport suspension)"
+BMW,528i,2015,"RWD, With active steering"
+Ford,Explorer,2014,2.0 or 3.5 W/O Automatic Park W/O Turbo
+Chrysler,300 (AWD),2017,AWD
+Hyundai,Sonata,2015-2017,"Rack mounted, 2.0L Turbocharged"
+Chrysler,Pacifica,2017-2021,Gasoline 
+Ford,F-150,2011,Electric With or Without Heavy Duty Towing Package
+Ford,F-150,2012-2014,Electric With or Without Heavy Duty Towing Package
+Audi,A4,2013-2016,Without dynamic steering
+Ford,Fusion,2015,All Models
+Ford,Edge,2015-2019,All Models
+Ford,Escape,2015,All Models
+Ford,Focus,2013-2018,All Models
+Chevrolet,Silverado 1500,2015,All Models
+Chevrolet,Silverado 1500,2016,All Models
+Chevrolet,Silverado 1500,2017-2019,"All Models, classic style for 2019 "
+Cadillac,Escalade,2015,All Models
+Cadillac,Escalade,2016,All Models
+Cadillac,Escalade,2017,All Models
+Ford,Taurus,2013-2015,W or W/O Police Package
+Ford,Explorer,2011-2012,All Models
+BMW,528i,2011-2016,Without active steering
+Volkswagen,Tiguan,2012,All Models
+Volkswagen,Tiguan,2017,All Models
+Ford,Bronco,1980-1993,?? ????? ?? ??????
+Dodge,RAM 2500,2003-2008,4WD Gas or Diesel
+NISSAN,FRONTIER,2000-2004,All Models
+JEEP,WRANGLER,2003-2006,LHD
+Ford,F-250,2008-2010,"F-250 Only, NO F-350, 2008: From 7/29 not Thru"
+FORD,F-250 SUPER DUTY,2005-2007,All Models
+FORD,Excursion,2000-2005,All Models
+JEEP,WRANGLER,2007-2017,LHD 4 Door Models; w/ Power Gear
+CHEVROLET,CAMARO ,2012-2015,14-15 6.2L & 7.0L Models
+BMW,X1,2012-2015,2.0; RWD; with Electronic Power Steering
+HONDA,HR-V,2023-2024,All Models
+Acura ,RLX,2014-2015,Base Models
+Mercedes,C43 AMG,2017-2018,AWD
+Ram,1500,2022-2024,All Models
+Mercedes,E350,2020,AWD
+Acura,TLX,2015-2020,"3.5L , FWD"
+Subaru,Impreza,2015-2016,All Models
+Lexus,GS300,2006,AWD
+CHEVROLET,CAMARO ,2016-2023,"LT, SS, LS Models"
+LAND ROVER,DISCOVERY,2017-2019,All Models
+Honda,Civic,2022-2024,"All Models (Sedan, LX Cheapest)"
+Mercedes,E Class,1998-2003,AWD E320
+RAM,ProMaster,2014-2017,All Models
+Honda,Odyssey,1995-1998,"EX, LX"
+Ford,Crown Victoria,2008-2011,W or W/O Speed Sensor
+BMW,Z3,1996-2002,"2.5L , 2.8L"
+Honda,Accord,1990-1993,2WD Models
+Chevrolet,Tracker,1998-2002,All models
+Lexus,LS400,1996-1997,All models
+Ford,Transit Connect,2010-2013,All Models
+Ford,Transit-150,2015-2019,"Base, XL, XLT"
+Mazda,Miata,1990-1997,Manual
+Mazda,Miata,1999-2003,Manual
+Chevrolet,Corvette,2005-2010,All models
+Chevrolet,Corvette,1997-2004,All Models
+Mazda,MX-5 Miata,2006-2015,All Models
+Lexus,LS400,1998-2000,All models
+Mazda,Miata,1999-2005,All Models
+Lexus,GS300,1998-2005,Base
+Infiniti,M37,2011-2013,RWD
+Infiniti,M37,2011-2013,AWD
+Mazda,Miata,1996-1997,All models
+3391EA,Ford,Flex,2011
+,,,
+Hydraulic,,,
+25490,Mercedes,E Class,1998-2003
+25009,RAM,ProMaster,2014-2017
+25525,Honda,Odyssey,1995-1998
+300A,Ford,Crown Victoria,2008-2011
+25460,BMW,Z3,1996-2002
+695,Honda,Accord,1990-1993
+25561,Chevrolet,Tracker,1998-2002
+25393,Lexus,LS400,1996-1997
+5275,Ford,Transit Connect,2010-2013
+5275B,Ford,Transit-150,2015-2019
+8400,Mazda,Miata,1990-1997
+8011,Mazda,Miata,1999-2003
+2151,Chevrolet,Corvette,2005-2010
+3652,Chevrolet,Corvette,1997-2004
+30140,Mazda,MX-5 Miata,2006-2015
+25142,Lexus,LS400,1998-2000
+25515,Mazda,Miata,1999-2005
+25502,Lexus,GS300,1998-2005
+26-30006,Infiniti,M37,2011-2013
+26-30007,Infiniti,M37,2011-2013
+25012,Mazda,Miata,1996-1997
