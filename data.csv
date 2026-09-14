@@ -1,4 +1,3 @@
-Make,Model,Year of Make,Sub Model
 Ram,1500,2015,All models
 RAM,1500,2019-2021,6-Lug (New Style)
 Ford,Mustang,2012,All Wheel Size
@@ -24,22 +23,25 @@ Cadillac,Escalade,2015,All Models
 Cadillac,Escalade,2016,All Models
 Cadillac,Escalade,2017,All Models
 Ford,Taurus,2013-2015,W or W/O Police Package
+ACURA,RDX,2019-2023,All Models
+Hyundai,Sonata,2018-2020,2.0L
 Ford,F-150,2021-2023,-
 Ford,Transit Connect,2014-2018,All Models
-Ford,Transit Connect,2019-2023,All Models
-Subaru,XV Crosstrek,2014,FULL HYBRID EV-GAS (FHEV)
+Ford,Transit Connect,2019-2023,"120.60"" WB"
 Ford,Explorer,2011-2012,All Models
 Dodge,Durango,2017-2020,3.6L and 5.7L
 BMW,528i,2011-2016,Without active steering
 Volkswagen,Tiguan,2012,All Models
 Volkswagen,Tiguan,2017,All Models
+FORD,F-350 SUPER DUTY,2008-2010,"Lariat , XL, XLT, King Ranch Models"
 Dodge,RAM 2500,2003-2008,4WD Gas or Diesel
-NISSAN,FRONTIER,2000-2004,All Models
 JEEP,WRANGLER,2003-2006,LHD
 Ford,F-250,2008-2010,"F-250 Only, NO F-350, 2008: From 7/29 not Thru"
 FORD,F-250 SUPER DUTY,2005-2007,All Models
 FORD,Excursion,2000-2005,All Models
-CHEVROLET,CAMARO ,2012-2015,14-15 6.2L & 7.0L Models
+NISSAN,FRONTIER,2000-2004,2.4  4C
+Lexus,LS460,2011-2012,AWD Models; without Air Suspension
+CHEVROLET,CAMARO ,2012-2015,13-14-15 6.2L & 7.0L Models
 BMW,X1,2012-2015,2.0; RWD; with Electronic Power Steering
 Acura ,RLX,2014-2015,Base Models
 Mercedes,C43 AMG,2017-2018,AWD
@@ -50,14 +52,18 @@ Subaru,Impreza,2015-2016,All Models
 CHEVROLET,CAMARO ,2016-2023,"LT, SS, LS Models"
 LAND ROVER,DISCOVERY,2017-2019,All Models
 Honda,Civic,2022-2024,"All Models (Sedan, LX Cheapest)"
+KIA ,STINGER,2018-2019,AWD Models
 Subaru,XV Crosstrek,2014,FULL HYBRID EV-GAS (FHEV)
-Volkswagen,Atlas,2024-2025,All Models
-Cadillac,XT4,2019-2023,All Models
-Acura,TLX,2015-2018,All Models
+Acura,TLX,2015-2018,3.5L AWD
 Mini,Cooper Countryman,2011-2016,All Models
+Cadillac,XT4,2019-2023,All Models
+Volkswagen,Atlas,2024-2025,All Models
 Ford ,Ranger,2019-2020,All Models
 Ford ,Ranger,2021-2023,All Models
 Ford ,Ranger,2024,All Models
+Acura,ILX , 2016 - 2022,All Models
+BMW,X5,2019-2024,Without Active Steering
+Mercedes-Benz,C350e,2017-2018,"RWD, Without Sport Package"
 Mercedes,E Class,1998-2003,AWD E320
 RAM,ProMaster,2014-2017,All Models
 Honda,Odyssey,1995-1998,All models
@@ -66,32 +72,13 @@ BMW,Z3,1996-2002,"2.5L , 2.8L"
 Honda,Accord,1990-1993,All models
 Chevrolet,Tracker,1998-2002,All models
 Lexus,LS400,1996-1997,All models
-Ford,Transit Connect,2010-2013,All Models
 Ford,Transit-150,2015-2019,"Base, XL, XLT"
 Mazda,Miata,1990-1997,Manual
 Mazda,Miata,1999-2003,Manual
-Chevrolet,Corvette,2005-2010,All models
-Chevrolet,Corvette,1997-2004,All Models
 Mazda,MX-5 Miata,2006-2015,All Models
 Lexus,LS400,1998-2000,All models
-Mazda,Miata,1999-2005,All Models
+Mazda,Miata,1999-2005,Power Rack and Pinion
 Lexus,GS300,1998-2005,Base
 Infiniti,M37,2011-2013,RWD
 Infiniti,M37,2011-2013,AWD
 Mazda,Miata,1996-1997,All models
-695,Honda,Accord,1990-1993
-25561,Chevrolet,Tracker,1998-2002
-25393,Lexus,LS400,1996-1997
-5275,Ford,Transit Connect,2010-2013
-5275B,Ford,Transit-150,2015-2019
-8400,Mazda,Miata,1990-1997
-8011,Mazda,Miata,1999-2003
-2151,Chevrolet,Corvette,2005-2010
-3652,Chevrolet,Corvette,1997-2004
-30140,Mazda,MX-5 Miata,2006-2015
-25142,Lexus,LS400,1998-2000
-25515,Mazda,Miata,1999-2005
-25502,Lexus,GS300,1998-2005
-26-30006,Infiniti,M37,2011-2013
-26-30007,Infiniti,M37,2011-2013
-25012,Mazda,Miata,1996-1997
