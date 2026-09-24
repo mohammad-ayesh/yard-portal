@@ -1,5 +1,4 @@
 Make,Model,Year of Make,Sub Model
-CHEVROLET,CAMARO ,2016-2023,"LT, SS, LS Models"
 Audi,A4,2013-2016,Without dynamic steering
 BMW,528i,2015,"RWD, With active steering"
 Chrysler,300 (AWD),2017,AWD
@@ -28,7 +27,6 @@ Ford,Taurus,2013-2015,W or W/O Police Package
 Ford,Transit Connect,2019-2023,"120.60"" WB"
 Ford,Explorer,2011-2012,All Models
 Dodge,Durango,2017-2020,3.6L and 5.7L
-BMW,528i,2011-2016,Without active steering
 Volkswagen,Tiguan,2012,All Models
 Volkswagen,Tiguan,2017,All Models
 Lexus,LS460,2011-2012,AWD Models; without Air Suspension
