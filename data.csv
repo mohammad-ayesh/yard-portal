@@ -1,16 +1,12 @@
 Make,Model,Year of Make,Sub Model
-Ford,F-150,2011-2014,With or Without Heavy Duty Towing Package
-JEEP,WRANGLER,2007-2017,4 Door Models
-Ford,Mustang,2012,All Wheel Size
+,,,
 Honda,Accord,1990-1993,All models
-Ford,Crown Victoria,2008-2011,W or W/O Speed Sensor
 Dodge,RAM 2500,2003-2008,4WD Gas or Diesel
 Audi,A4,2013-2016,All Models
 BMW,528i,2015,"RWD, With active steering"
 BMW,X1,2012-2015,2.0; RWD; with Electronic Power Steering
 Chrysler,300 (AWD),2017,AWD
 Chrysler,Pacifica,2017-2021,Gasoline 
-Subaru,Impreza,2015-2016,All Models
 Chevrolet,Silverado 1500,2015,All Models
 Chevrolet,Silverado 1500,2016,All Models
 Chevrolet,Silverado 1500,2017-2019,"All Models, classic style for 2019 "
@@ -18,24 +14,59 @@ Cadillac,Escalade,2015,All Models
 Cadillac,Escalade,2016,All Models
 Cadillac,Escalade,2017,All Models
 Ram,1500,2015,All models
+Honda,Civic,2006-2011,"1.3L (Hybrid, Sedan)"
 RAM,1500,2019-2021,6-Lug (New Style)
 Chrysler,300,2015,"RWD , All models (Any kind of suspension)"
 Chrysler,300,2016,"RWD , All models (Any kind of suspension)"
 Chrysler,300,2017,"RWD , All models (Any kind of suspension)"
 Dodge,Challenger (Chrysler),2022,"(power rack and pinion), opt SDE (sport suspension)"
 Ford,Explorer,2014,2.0 or 3.5 W/O Automatic Park W/O Turbo
-Ford,Fusion,2013-2019,All Models
 Volkswagen,Tiguan,2009-2017,All Models
 Ford,Taurus,2013-2015,W or W/O Police Package
 RAM,ProMaster,2014-2021,All Models
-Honda ,Insight,2001-2006,w/ Manual Transmission
+JEEP,WRANGLER,2007-2017,4 Door Models
+Subaru,Impreza,2015-2016,All Models
+Ford,Crown Victoria,2008-2011,W or W/O Speed Sensor
+Ford,Mustang,2012,All Wheel Size
+Ford,F-150,2011-2014,With or Without Heavy Duty Towing Package
+,,,
+Hyundai,Sonata,2018-2020,2.0L
+LAND ROVER,DISCOVERY,2017-2019,All Models
+Acura,TSX,2009-2010,2.4L; Base
+Ford,Mustang,2015-2017,All Wheel Size
+Acura,TSX,2011-2012,2.4L Models
+Ford,Explorer,2016-2019,"For 2016, Built After 07/2016"
+Ford,Fusion,2013-2019,All Models
+Ram,1500,2022-2024,All Models
+Kia,Sorento,2016-2018,"FWD,  rack mounted motor"
+Jeep,Cherokee,2019-2023,All Models
+Ford,Explorer,2020-2024,2.3L Models
 Ford,Explorer,2011-2012,All Models
 Honda,Fit,2007-2008,All models
-Honda,Civic,2006-2011,"1.3L (Hybrid, Sedan)"
 BMW,528i,2011-2016,Without active steering
 BMW,320i,2013-2018,"RWD, w/o Variable Ratio Sport Steering"
-Jeep,Grand Cherokee,2021-2024,WL Body (New Body); 6th Digit VIN is G or H or Y or J or K
+Lexus,LS460,2011-2012,AWD Models; without Air Suspension
+KIA ,STINGER,2018-2019,AWD Models
+,,,
+Mercedes,450SL,1972-1980,"107 Type, SL or SLC"
 JEEP,WRANGLER,2003-2006,LHD
+,,,
+Chevrolet,Silverado 2500 HD,2020-2025,
+CADILLAC,ESCALADE,2002-2006,AWD Models; w/ 6 Lugs
+CHEVROLET,TAHOE,1995-1999,4WD Models; 6.5L Models; 8 Lugs; 1/2-3/4 Ton
+CADILLAC,ESCALADE,2007-2014,AWD Models; w/ 6 Lugs
+Chevrolet,Silverado 2500HD,2011-2019,
+RAM,1500,2012-2021,4WD Models
+Nissan,Frontier,2005-2020,LE
+NISSAN,ALTIMA,2007-2012,2.5L Models; w/ Automatic CVT Transmission
+BUICK,ENCLAVE,2008-2011,
+BUICK,ENCLAVE,2008-2011,
+FORD,EXPEDITION,2007-2010,4WD Models
+LINCOLN,NAVIGATOR,2008-2015,4WD Models
+NISSAN,ALTIMA,2007-2012,2.5L Models; w/ Automatic CVT Transmission
+HONDA,ACCORD,2008-2012,2.4L Models; w/ Automatic Transmission
+BUICK,LACROSSE,2010-2016,2.4L Models
+,,,
 Mercedes,E Class,1998-2003,AWD E320
 Honda,Odyssey,1995-1998,All models
 Chevrolet,Tracker,1998-2002,All models
@@ -46,3 +77,33 @@ Infiniti,M37,2011-2013,RWD
 Infiniti,M37,2011-2013,AWD
 Mazda,Miata,1990-1997,Manual
 Mazda,Miata,1999-2003,Manual
+,,,
+Volkswagen,Atlas,2024-2025,All Models
+Mini,Cooper Countryman,2011-2016,All Models
+Ford ,Ranger,2019-2020,All Models
+Ford ,Ranger,2021-2023,All Models
+Ford ,Ranger,2024,All Models
+BMW,X5,2019-2024,Without Active Steering
+Lexus,GS350,2013-2016,All Models
+BMW,X1,2016-2018,without Variable Sport Steering; without Automatic Park
+Hyundai,Sonata,2021-2023,All Models
+Ford,Expedition,2015-2017,All Models
+Ford,Expedition,2018-2021,All Models
+Ford,Expedition,2018-2021,All Models
+Cadillac,CT5,2020-2024,AWD
+Cadillac,CT5,2020-2024,RWD
+Subaru,Impreza,2012-2014,All Models
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
